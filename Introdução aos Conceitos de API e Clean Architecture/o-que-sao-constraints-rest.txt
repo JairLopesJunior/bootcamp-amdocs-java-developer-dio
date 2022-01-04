@@ -1,0 +1,20 @@
+CONSTRAINTS:
+
+1º Interface Uniforme:
+- Baseado em recurso, interface por onde o cliente se comunica com o servidor.
+
+2º Cliente-Servidor: 
+- Cliente e servidor podem existirem e serem desenvolvidos separadamente, são independentes.
+
+3º Sem estado:
+- O servidor não guarda estado, sessão, necessário sempre, a cada requisição, caso necesário, informar o servidor de quem está requerendo o dado específico.
+
+4º Cache:
+- Funcionalidade que eleimina, dado algumas configurações, voltar ao servidor, se a requisição se repetir dentro de um tempo. Cache pode ser gerenciado em
+modo client ou server side.
+
+5º Sistema em camadas:
+- Por ser sem estado, permite distribuir as implantações e ou recursos, ex: API em um servidor, data storage em outro e sistema de autenticação em um terceiro servidor.
+
+6º Código sobre demanda (opcional):
+- Possibilidade de retornar "executáveis" via API para renderização de algum componente se necessário.
