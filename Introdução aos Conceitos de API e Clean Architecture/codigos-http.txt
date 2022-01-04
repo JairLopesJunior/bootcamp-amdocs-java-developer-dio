@@ -1,0 +1,7 @@
+Códigos HTTP:
+
+- 1xx - Informações;
+- 2xx - Sucesso na requisição;
+- 3xx - Redirecionamentos;
+- 4xx - Erro no lado do cliente;
+- 5xx - Erro no lado do servidor;
